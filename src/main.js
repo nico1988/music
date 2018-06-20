@@ -1,4 +1,4 @@
-import 'babel-polyfill'
+import 'babel-polyfill'  // 写在第一行
 import Vue from 'vue'
 import App from './App'
 import router from './router'
