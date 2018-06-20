@@ -11,7 +11,7 @@ import 'common/stylus/index.styl'
 /* eslint-disable no-unused-vars */
 // import vConsole from 'vconsole'
 
-fastclick.attach(document.body)
+fastclick.attach(document.body)  // 移动端300ms延迟
 
 Vue.use(VueLazyload, {
   loading: require('common/image/default.png')
