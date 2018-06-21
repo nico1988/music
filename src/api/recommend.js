@@ -7,7 +7,7 @@ export function getRecommend() {
 
   const data = Object.assign({}, commonParams, {
     platform: 'h5',
-    uin: 0,
+    uin: 410827024,
     needNewCode: 1
   })
 

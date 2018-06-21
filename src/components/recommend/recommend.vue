@@ -2,6 +2,7 @@
   <div class="recommend" ref="recommend">
     <scroll ref="scroll" class="recommend-content" :data="discList">
       <div>
+        <!-- v-if 当recomends有的时候dom才渲染 slider组件执行mounted -->
         <div v-if="recommends.length" class="slider-wrapper" ref="sliderWrapper">
           <slider>
             <div v-for="item in recommends">
@@ -52,7 +53,7 @@
       }
     },
     created() {
-      this._getRecommend()
+      this._getRecommend() // 异步
 
       this._getDiscList()
     },

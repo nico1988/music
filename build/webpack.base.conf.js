@@ -21,6 +21,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
+      // 修改build下面的东西要重启npm
       '@': resolve('src'),
       'common': resolve('src/common'),
       'components': resolve('src/components'),

@@ -37,7 +37,7 @@
       }
     },
     mounted() {
-      setTimeout(() => {
+      setTimeout(() => { // 浏览器刷新17ms一次
         this._setSliderWidth()
         this._initDots()
         this._initSlider()
@@ -80,7 +80,7 @@
           width += sliderWidth
         }
         if (this.loop && !isResize) {
-          width += 2 * sliderWidth
+          width += 2 * sliderWidth // 2倍
         }
         this.$refs.sliderGroup.style.width = width + 'px'
       },
