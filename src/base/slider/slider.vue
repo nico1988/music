@@ -37,6 +37,7 @@
       }
     },
     mounted() {
+      // 初始化dom 设置轮播图宽度
       setTimeout(() => { // 浏览器刷新17ms一次
         this._setSliderWidth()
         this._initDots()

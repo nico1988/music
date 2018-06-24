@@ -54,13 +54,14 @@
     border-radius: 6px
     .icon-search
       font-size: 24px
-      color: $color-background
+      color: #d8d8d8d
     .box
       flex: 1
       margin: 0 5px
-      line-height: 18px
+      line-height: 40px
       background: $color-highlight-background
       color: $color-text
+      padding-left: 10px
       font-size: $font-size-medium
       &::placeholder
         color: $color-text-d
